@@ -3,20 +3,26 @@
 
   /* Shared column styles */
   .row {
-    [class*="large-"] {
-      float: $defaultFloat;
+    display: -webkit-flex;
+    
+    &.stacked {
+      -webkit-flex-direction: column;
+      &.flip {
+        -webkit-flex-direction: column-reverse;
+      }
     }
+    
+    &.flip {
+      -webkit-flex-direction: row-reverse;
+    }
+    
     &.collapse {
       [class*="large-"] { padding: 0; }
     }
   }
 
-  /* Floating for default last columns and overriding with .end class */
-  [class*="large-"]:last-child { float: $defaultOpposite; }
-  [class*="large-"] + [class~="end"] { float: $defaultFloat; }
-
-  /* Centered large columns */
-  .large-centered { float: none !important; margin: 0 auto; }
+  /* Centered large rows */
+  .large-centered { -webkit-justify-content: center; }
 
   /* Small column widths */
   @for $i from 1 through $totalColumns {

@@ -111,8 +111,8 @@ $microformat-abbr-font-decoration:     none !default;
   line-height: $subheader-line-height;
   color: $subheader-font-color;
   font-weight: $subheader-font-weight;
-  margin-top: $header-top-margin;
-  margin-bottom: $header-bottom-margin;
+  margin-top: $subheader-top-margin;
+  margin-bottom: $subheader-bottom-margin;
 }
 
 
@@ -237,6 +237,7 @@ dl {
   line-height: $paragraph-line-height;
   margin-bottom: $paragraph-margin-bottom;
   list-style-position: $list-style-position;
+  font-family: $paragraph-font-family;
 }
 
 /* Unordered Lists */

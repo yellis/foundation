@@ -1,9 +1,7 @@
 //
 // Grid Variables
 //
-$row-width:     emCalc(1000px) !default;
-$column-gutter: emCalc(30px) !default;
-$total-columns: 12 !default;
+$row-width:     100% !default; // 62.5em $column-gutter: 1.875em !default;$total-columns: 12 !default;
 
 //
 // Grid Mixins

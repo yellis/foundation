@@ -1,14 +1,13 @@
 <% template = @template if defined?(@template) %>
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" <% if template[:options][:rtl] %>dir="rtl"<% end %>> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" <% if template[:options][:rtl] %>dir="rtl"<% end %>> <!--<![endif]-->
 
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>Foundation 4</title>
 
-  <link rel="stylesheet" href="<%= css_dir %>/normalize.css" />
   <% if template[:options][:customizer_used] %>
   <link rel="stylesheet" href="<%= css_dir %>/foundation.css" />
   <% else %>

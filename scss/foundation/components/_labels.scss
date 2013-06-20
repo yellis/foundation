@@ -1,14 +1,17 @@
 //
 // Label Variables
 //
+$include-html-label-classes: $include-html-classes !default;
 
 // We use these to style the labels
-$label-padding:     emCalc(3px) emCalc(10px) emCalc(4px) !default;
-$label-radius:      $global-radius !default;
+$label-padding: emCalc(3px) emCalc(10px) emCalc(4px) !default;
+$label-radius: $global-radius !default;
 
 // We use these to style the label text
-$label-font-size:   emCalc(14px) !default;
+$label-font-sizing: emCalc(14px) !default;
 $label-font-weight: bold !default;
+$label-font-color: #333 !default;
+$label-font-color-alt: #fff !default;
 
 //
 // Label Mixins
@@ -21,12 +24,12 @@ $label-font-weight: bold !default;
   text-decoration: none;
   line-height: 1;
   white-space: nowrap;
-  display: inline;
+  display: inline-block;
   position: relative;
 }
 
 // We use this mixin to add label size styles.
-@mixin label-size($padding:$label-padding, $text-size:$label-font-size) {
+@mixin label-size($padding:$label-padding, $text-size:$label-font-sizing) {
   @if $padding { padding: $padding; }
   @if $text-size { font-size: $text-size; }
 }
@@ -43,8 +46,8 @@ $label-font-weight: bold !default;
     background-color: $bg;
 
     // We control the text color for you based on the background color.
-    @if $bg-lightness < 70% { color: #fff; }
-    @else { color: #333; }
+    @if $bg-lightness < 70% { color: $label-font-color-alt; }
+    @else { color: $label-font-color; }
   }
 
   // We use this to control the radius on labels.
@@ -54,14 +57,15 @@ $label-font-weight: bold !default;
 }
 
 // We use this to add close buttons to alerts
-@mixin label($padding:$label-padding, $text-size:$label-font-size, $bg:$primary-color, $radius:false) {
+@mixin label($padding:$label-padding, $text-size:$label-font-sizing, $bg:$primary-color, $radius:false) {
+
   @include label-base;
   @include label-size($padding, $text-size);
   @include label-style($bg, $radius);
 }
 
 
-@if $include-html-label-classes {
+@if $include-html-label-classes != false {
 
   /* Labels */
   .label {

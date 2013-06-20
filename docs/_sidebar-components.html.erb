@@ -1,4 +1,4 @@
-<div class="docs section-container accordion" data-section data-options="deep_linking: false">
+<div class="docs section-container accordion" data-section data-options="one_up: false">
   <section class="section <%= @side_nav == 'using' ? 'active': '' %>">
     <p class="title"><a href="#">Using Foundation</a></p>
     <div class="content">
@@ -9,6 +9,7 @@
         <li><a href="../rails.html">Rails</a></li>
         <li><a href="../media-queries.html">Media Queries</a></li>
         <li><a class="<%= @page_title == 'Visibility Classes' ? 'active': '' %>" href="visibility.html">Visibility Classes</a></li>
+        <li><a href="../rtl.html">Right-to-Left Support</a></li>
       </ul>
     </div>
   </section>
@@ -77,6 +78,8 @@
         <li><a class="<%= @page_title == 'Tables' ? 'active': '' %>" href="tables.html">Tables</a></li>
         <li><a class="<%= @page_title == 'Thumbnails' ? 'active': '' %>" href="thumbnails.html">Thumbnails</a></li>
         <li><a class="<%= @page_title == 'Flex Video' ? 'active': '' %>" href="flex-video.html">Flex Video</a></li>
+        <li class="divider"></li>
+        <li><a target="_blank" style="font-style: italic" class="<%= @page_title == 'Kitchen Sink' ? 'active': '' %>" href="kitchen-sink.html">Kitchen Sink</a></li>
       </ul>
     </div>
   </section>
@@ -86,6 +89,7 @@
       <ul class="side-nav">
         <li><a class="<%= @page_title == 'Clearing' ? 'active': '' %>" href="clearing.html">Clearing</a></li>
         <li><a class="<%= @page_title == 'Dropdown' ? 'active': '' %>" href="dropdown.html">Dropdown</a></li>
+        <li><a class="<%= @page_title == 'Interchange' ? 'active': '' %>" href="interchange.html">Interchange</a></li>
         <li><a class="<%= @page_title == 'Joyride' ? 'active': '' %>" href="joyride.html">Joyride</a></li>
         <li><a class="<%= @page_title == 'Magellan' ? 'active': '' %>" href="magellan.html">Magellan</a></li>
         <li><a class="<%= @page_title == 'Orbit' ? 'active': '' %>" href="orbit.html">Orbit</a></li>
@@ -107,6 +111,6 @@
 
 <div class="jobs hide-for-small">
   <h5>Awesome product jobs:</h5>
-  <script type="text/javascript" src="http://www.zurb.com/jobs/widgets/jobs.js?limit=3&variation=foundation-sidebar"></script>
+  <div id="zurbJobsWidget"></div>
   <a id="via" href="http://zurbjobs.com">via&nbsp;<span class="jobs-link">ZURBjobs</span></a>
 </div>

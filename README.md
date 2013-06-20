@@ -1,7 +1,7 @@
 Welcome to Foundation
 =====================
 
-Foundation is the most advanced responsive front-end framework in the world. With Foundation you can quickly prototype and build sites or apps that work on any kind of device, with tons of included layout constructs (like a full responsive grid), elements and best practices.
+Foundation is the most advanced responsive front-end framework in the world. You can quickly prototype and build sites or apps that work on any kind of device with Foundation, which includes layout constructs (like a fully responsive grid), elements and best practices.
 
 Homepage:      http://foundation.zurb.com<br />
 Documentation: http://foundation.zurb.com/docs<br />
@@ -28,23 +28,32 @@ Community
 
 Many thanks to all the people working on Foundation either to improve the base code or to support specific frameworks. If you want to get on this readme send an email to foundation@zurb.com, and if you have questions you can join the Unofficial Foundation Google Group here: http://groups.google.com/group/foundation-framework-
 
-WordPress
+WordPress (Versions marked 3/20/13)
 
-* [Starter Theme](https://github.com/drewsymo/Foundation) by Drew Morris
-* [Reverie](http://themefortress.com/reverie/) by Zhen
-* [WP-Foundation](http://320press.com/wp-foundation/features/) by 320press
-* [Yeti](https://github.com/modlearning/Yeti) by Modular Learning
-* [Foundation](https://github.com/drewsymo/Foundation) by Drewsymo
-* [required+ Themes](http://themes.required.ch/) by required+
+* [Reactor](https://github.com/awtheme/reactor) by Anthony Wilhelm using Foundation version 4
+* [Reverie](http://themefortress.com/reverie/) by Zhen using Foundation version 4
+* [Corner Stone](https://github.com/thewirelessguy/cornerstone) by [Stephen Mullen](https://twitter.com/wirelessguyuk) using Foundation version v4.09
+* [required+ Themes](http://themes.required.ch/) by required+ using Foundation version 3.25
+* [Yeti](https://github.com/modlearning/Yeti) by Modular Learning using Foundation version 3.2
+* [Starter Theme](https://github.com/drewsymo/Foundation) by Drew Morris using Foundation version 3
+* [WP-Foundation](http://320press.com/wp-foundation/features/) by 320press using Foundation version 3
+* [f415](https://github.com/javorszky/f415) by Gabor Javorszky
+* [Narga Core](https://github.com/Narga/narga-core) by Nguyễn Đình Quân
+* [Basey](https://github.com/zslabs/basey-theme) by Zach Schnackel 
 
 Joomla
 
 * [Joomla Template](https://github.com/meridiansoftech/joomla_foundation_template) by Arnold Mwumva Ford, Meridian Softech
-* [Joomla Template](https://github.com/antonydoyle/siegeengine) by Antony Doyle, Siege21
+* [Joomla Template](https://github.com/antonydoyle/siegeengine2) by Antony Doyle, Siege21
 
 Drupal
 
 * [Drupal Theme](https://github.com/drewkennelly/foundation7) by Drew Kennelly
+* [Zurb Foundation](http://drupal.org/project/zurb-foundation) Supporting F3.2, F4 & Drupal 8  by [Ishmael Sanchez](http://ishmaelsanchez.com), [Chris Lee](http://hire.chrisjlee.net)
+* [Zoundation Theme](http://drupal.org/project/zoundation) by [Andrea Burton](https://twitter.com/andreaburton) & [Jeff Graham](https://twitter.com/jgraham909), FunnyMonkey
+
+Alfred
+* [Foundation Alfred](https://github.com/joshmedeski/foundation-alfred) by Josh Medeski (@joshmedeski)
 
 PyroCMS
 
@@ -65,6 +74,14 @@ MODX
 Middleman
 
 * [Middleman Skeleton](https://github.com/axyz/middleman-zurb-foundation) by [Andrea Moretti](https://twitter.com/axyz)
+* [Middleman Foundation 4.x Template](https://github.com/mattolson/middleman-zurb-template) by [Matt Olson](http://mattolson.com)
+
+Magento
+* [Magento & Foundation](https://github.com/nandroid/MagentoFoundation) by Nandroid
+* [Waterlee Boilerplate](https://github.com/zeljkoprsa/waterlee-boilerplate) by Jake Sharp
+
+Metoer
+* [Meteor Package for Foundation](https://atmosphere.meteor.com/package/foundation) by Eric Wallace
 
 Python
 * [Pyramid Scaffold](https://github.com/ppinette/pyramid_foundation) by Parker Pinette
@@ -72,6 +89,14 @@ Python
 CodeIgniter
 
 * [Responsive CodeIgniter BoilerPlate](https://github.com/meridiansoftech/meridian_ci_codebase) by [Arnold Mwumva Ford](https://twitter.com/fordarnold) , Meridian Softech
+
+Shopify
+
+* [Foundationify Shopify Theme](https://github.com/lukebussey/foundationify) by Luke Bussey
+
+Orchard
+
+  * [Foundation Theme for Orchard CMS](https://foundationorchardcms.codeplex.com/)
 
 Other Implementations
 
@@ -83,9 +108,10 @@ Editors
 
 * [Textmate/Sublime Text2 Bundle](https://github.com/liamr/Zurb-Foundation-Textmate-Bundle) by Liam R, @liamr
 
-PSD Templates
+Templates
 
-* [Desktop, Tablet and Phone Grid Templates](http://foundation.zurb.com/files/foundation-psd-templates.zip ) by Bruce Abel at Portfolio Creative Services Group
+* [Desktop, Tablet and Phone Grid PSD Templates](http://foundation.zurb.com/files/foundation-psd-templates.zip ) by Bruce Abel at Portfolio Creative Services Group
+* [HAML Web Templates](https://github.com/pbonnell/foundation_templates_haml) by Peter Bonnell
 
 Grid Generator
 
@@ -104,6 +130,12 @@ Modular Scale
 Ruby on Rails Sass Gems
 
 * [Foundation Icons 2](https://github.com/zaiste/foundation-icons-sass-rails) by J. P. Nowak
+
+Yeoman Generator
+
+* [Yeoman 1.0-Foundation 4](https://github.com/lkbgift/foundation4-yeoman) by [Leonard Bogdonoff](http://twitter.com/lkbcc)
+* [Yeoman-Foundation](https://npmjs.org/package/yeoman-foundation) by Vincent Mac
+
 
 MIT Open Source License
 =======================
